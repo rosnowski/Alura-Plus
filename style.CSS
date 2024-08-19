@@ -19,7 +19,7 @@ body{
     background-image: url("img/Background.png");
     background-repeat: no-repeat;
     background-size: contain ;
-grid-template-columns: 50% 50%;
+    grid-template-columns: 50% 50%;
 }
 
 .container{
@@ -28,7 +28,7 @@ grid-template-columns: 50% 50%;
 
 .container__botao {
     background-color: var(--botao-azul);
-    border-radius: 5px;
+    border-radius:5px ;
     padding: 1em;
     color: var(--branco-principal);
     display: block;
@@ -37,4 +37,22 @@ grid-template-columns: 50% 50%;
 .botao_secundario {
     background-color: transparent;
     border: 2px solid var(--branco-principal);
+}
+
+.container__aviso {
+    font-size: 12px;
+    color: var(--cinza-secundario);
+}
+
+.container__titulo {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.container__imagem {
+    margin: 1em 0 2em 0;
+}
+
+.container__caixa {
+    margin: 0 6em;
 }
